@@ -1,0 +1,400 @@
+/* ====================================================== */
+/* Navbar */
+/* ====================================================== */
+
+.navbar{
+
+    height:75px;
+
+    background:#111827;
+
+    border-bottom:1px solid #1f2937;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 35px;
+}
+
+.navbar h1{
+
+    color:white;
+
+    font-size:2rem;
+}
+
+.navbar-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+}
+
+/* ====================================================== */
+/* Search */
+/* ====================================================== */
+
+.search-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    background:#1e293b;
+
+    padding:10px 16px;
+
+    border-radius:12px;
+}
+
+.search-box input{
+
+    background:transparent;
+
+    border:none;
+
+    outline:none;
+
+    color:white;
+
+    width:180px;
+}
+
+.search-box svg{
+
+    color:#94a3b8;
+}
+
+/* ====================================================== */
+/* Dropdown Wrapper */
+/* ====================================================== */
+
+.dropdown-wrapper{
+
+    position:relative;
+}
+
+/* ====================================================== */
+/* Notification Button */
+/* ====================================================== */
+
+.notification-btn{
+
+    width:52px;
+    height:52px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+
+    background:#1f2937;
+
+    border:none;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.notification-btn:hover{
+
+    background:#374151;
+}
+
+.notification-btn svg{
+
+    color:white;
+
+    font-size:20px;
+}
+
+.notification-badge{
+
+    position:absolute;
+
+    top:8px;
+
+    right:8px;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    background:#ef4444;
+
+    color:white;
+
+    font-size:11px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-weight:bold;
+}
+
+/* ====================================================== */
+/* Profile */
+/* ====================================================== */
+
+.profile-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    transition:.25s;
+}
+
+.profile-btn:hover{
+
+    background:#1d4ed8;
+}
+
+.profile-btn svg{
+
+    font-size:18px;
+}
+
+/* ====================================================== */
+/* Dropdown Menu */
+/* ====================================================== */
+
+.dropdown-menu{
+
+    position:absolute;
+
+    top:62px;
+
+    right:0;
+
+    width:310px;
+
+    background:#111827;
+
+    border:1px solid #1f2937;
+
+    border-radius:16px;
+
+    padding:20px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+    z-index:1000;
+
+    animation:dropdown .25s ease;
+}
+
+.profile-menu{
+
+    width:260px;
+}
+
+.dropdown-menu h4{
+
+    margin-bottom:18px;
+
+    color:white;
+
+    font-size:17px;
+}
+
+/* ====================================================== */
+/* Notification Items */
+/* ====================================================== */
+
+.dropdown-item{
+
+    display:flex;
+
+    gap:15px;
+
+    padding:12px;
+
+    border-radius:12px;
+
+    transition:.25s;
+
+    cursor:pointer;
+}
+
+.dropdown-item:hover{
+
+    background:#1e293b;
+}
+
+.dropdown-item svg{
+
+    color:#3b82f6;
+
+    font-size:18px;
+
+    margin-top:3px;
+
+    min-width:18px;
+}
+
+.dropdown-item strong{
+
+    display:block;
+
+    margin-bottom:5px;
+
+    color:white;
+}
+
+.dropdown-item p{
+
+    color:#94a3b8;
+
+    font-size:13px;
+
+    line-height:1.4;
+}
+
+/* ====================================================== */
+/* Profile Rows */
+/* ====================================================== */
+
+.profile-row{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:10px 0;
+
+    color:#cbd5e1;
+}
+
+.dropdown-menu hr{
+
+    border:none;
+
+    border-top:1px solid #1f2937;
+
+    margin:18px 0;
+}
+
+/* ====================================================== */
+/* Menu Buttons */
+/* ====================================================== */
+
+.menu-btn{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#1e293b;
+
+    color:white;
+
+    cursor:pointer;
+
+    margin-bottom:10px;
+
+    transition:.25s;
+}
+
+.menu-btn:hover{
+
+    background:#334155;
+}
+
+.logout{
+
+    background:#7f1d1d;
+}
+
+.logout:hover{
+
+    background:#991b1b;
+}
+
+.navbar-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+}
+
+.navbar-left h1{
+
+    margin:0;
+
+    color:white;
+
+    font-size:32px;
+
+    font-weight:700;
+}
+
+.navbar-subtitle{
+
+    margin-top:5px;
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+    font-weight:400;
+}
+
+/* ====================================================== */
+/* Animation */
+/* ====================================================== */
+
+@keyframes dropdown{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-10px);
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+    }
+}

@@ -1,0 +1,36 @@
+Three is nine nine on eight is one square twelve and seven number four zero here zero here zero so alternatively you will get over here as zero and we multiply and also can be shown the diagonally you are going to get one the multiplication of eight zero times one zero zero zero one to the IQ and multiplication was the values and my terms of what zero is actually one two inverse eight what is the inverse value and number three five four and you have four five plus three three two that is one right remember yes one plus seven zero right that is how going to find the equations correct W plus consider four in what should be mod with the eight value should we know the result zero isn't it one plus seven is eight mod
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "axios": "^1.19.0",
+    "chart.js": "^4.5.1",
+    "lucide-react": "^1.24.0",
+    "react": "^19.2.7",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.7",
+    "react-icons": "^5.7.0",
+    "react-router-dom": "^7.18.2",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^10.6.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "vite": "^8.1.1"
+  }
+}

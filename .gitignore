@@ -1,0 +1,75 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+
+# ===========================
+# Frontend
+# ===========================
+node_modules/
+dist/
+build/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# Python Cache
+# ===========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# Generated Files
+# ===========================
+backend/uploads/
+uploads/
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Temporary Files
+# ===========================
+tempCodeRunnerFile.py
+# Generated Reports
+*.pdf
+backend/*.pdf
+
+backend/dataset/*
+!backend/dataset/README.md
