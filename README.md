@@ -10,6 +10,7 @@ SentinelAI is an AI-powered Network Intrusion Detection and Security Copilot tha
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-black?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 ---
 
@@ -414,7 +415,7 @@ backend/dataset/cicids2017_cleaned.csv
 
 ## License
 
-No license file is currently included in this repository. Add one (e.g. MIT, Apache-2.0) before treating this as open source.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
